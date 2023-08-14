@@ -62,7 +62,14 @@ console.log(m); // 2
 //7 
 m1 === m2 ? console.log('yesss') : console.log('noooo');
 
-//8.
+//8. Calculate the value of z (z = d2 + 6d + 9). Try to use different x values and figure out at what d value z is 0.
+
+//z = Math.pow(d, 2) + 6d + 9
+  0 = Math.pow(d, 2) + 6 * d + 9;
+z = 0
+let d = -3;
+console.log(Math.pow(d, 2) + (6 * d) + 9);
+
 
 //9. Writ a script that prompt a user to enter hours and rate per hour. Calculate pay of the person?
 let numberHours = parseFloat(prompt('enter hours'));
@@ -107,9 +114,6 @@ let secondsInAYear = 365 * 24 * 60 * 60
 let secondsLived = secondsInAYear * numberOfYears
 
 alert(`You have lived ${secondsLived} seconds`)
-
-
-
 
 
 //15. Create a human readable time format using the Date time object
